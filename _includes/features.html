@@ -1,0 +1,27 @@
+{% for feature in site.data.features %}
+{% assign i = forloop.index | modulo: 3 %}
+{% assign j = forloop.index | modulo: 2 %}
+<section id="feature">
+  <div class="container">
+    <div class="row">
+      {% if j == 1 %}
+      <div class="col-md-6 wow fadeInRight" data-wow-delay="0.6s">
+        <img src="img/software-img.png" class="img-responsive" alt="feature img">
+      </div>
+      {% endif %}
+      <div class="col-md-6 wow fadeInLeft" data-wow-delay="0.6s">
+        <h2 class="text-uppercase">{{i}} {{feature.tagline}}</h2>
+        <p>{{feature.blurb}}</p>
+        <p>
+          <span><i class="fa fa-mobile"></i></span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <p><i class="fa fa-code"></i>Quis autem velis reprehenderit et quis voluptate velit esse quam.</p>
+      </div>
+      {% if j == 0 %}
+      <div class="col-md-6 wow fadeInRight" data-wow-delay="0.6s">
+        <img src="img/software-img.png" class="img-responsive" alt="feature img">
+      </div>
+      {% endif %}
+    </div>
+  </div>
+</section>
+{% endfor %}
