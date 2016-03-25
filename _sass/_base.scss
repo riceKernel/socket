@@ -123,7 +123,7 @@ img {
 /* end preloader */
 /* start navigation */
 .navbar-default {
-  background: #fff;
+  background: #41ACCC;
   border: none;
   box-shadow: 0 2px 8px 0 rgba(50, 50, 50, 0.08);
   margin: 0 !important;
@@ -142,10 +142,10 @@ img {
   height: 70px;
   line-height: 40px;
 }
-.navbar-default .nav li a.current,
+.navbar-default .nav li a.active,
 .navbar-default .nav li a:focus,
 .navbar-default .nav li a:hover {
-  color: #28a7e9;
+  color: #5e5e5e;
 }
 .navbar-default .navbar-toggle {
   border: none;

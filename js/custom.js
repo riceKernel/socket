@@ -7,7 +7,8 @@ $(function() {
   new WOW().init();
   $('.templatemo-nav').singlePageNav({
     offset: 70,
-    filter: ':not(.external)'
+    filter: ':not(.external)',
+    currentClass: 'active',
   });
 
   /* Hide mobile menu after clicking on a link
