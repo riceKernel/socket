@@ -3,14 +3,14 @@
   <div class="container">
     <div class="row">
       <p>Copyright © 2016 {{site.company_name}}</p>
-      <img src="{{ " /img/rice_kernel_logo.png " | prepend: site.baseurl }}" alt="" />
+      <img src="{{ "/img/rice_kernel_logo.png" | prepend: site.baseurl | prepend: site.url }}" alt="" />
     </div>
   </div>
 </footer>
 <!-- end footer -->
 
-<script src="js/jquery.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/wow.min.js"></script>
-<script src="js/jquery.singlePageNav.min.js"></script>
-<script src="js/custom.js"></script>
+<script src="{{ "/js/jquery.js" | prepend: site.baseurl | prepend: site.url }}"></script>
+<script src="{{ "/js/bootstrap.min.js" | prepend: site.baseurl | prepend: site.url }}"></script>
+<script src="{{ "/js/wow.min.js" | prepend: site.baseurl | prepend: site.url }}"></script>
+<script src="{{ "/js/jquery.singlePageNav.min.js" | prepend: site.baseurl | prepend: site.url }}"></script>
+<script src="{{ "/js/custom.js" | prepend: site.baseurl | prepend: site.url }}"></script>

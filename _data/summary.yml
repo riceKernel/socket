@@ -1,0 +1,18 @@
+- name: responsive
+  tagline: Responsive
+  blurb: >
+    While socket is designed to be used on mobile devices,
+    it will easily adapt to your tablet, desktop, or TV.
+  icon: fa-laptop
+
+- name: secure
+  tagline: Secure
+  blurb: >
+    Full security model using oAuth 2.0
+  icon: fa-lock
+
+- name: global
+  tagline: Global
+  blurb: >
+    Works anywhere that you have internet connection
+  icon: fa-globe

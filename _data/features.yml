@@ -1,15 +1,15 @@
 - name: crm
   tagline: Full CRM platform
   blurb: Tell me a bit about the crm feature
+  img: img/software-img.png
+  features:
+    - icon: fa-anchor
+      text: lorem and stuff
 
 - name: auto actions
-  tagline: Full CRM platform
+  tagline: Automatic actions
   blurb: Tell me a bit about the crm feature
-
-- name: application management
-  tagline: Full CRM platform
-  blurb: Tell me a bit about the crm feature
-
-- name: crm
-  tagline: Full CRM platform
-  blurb: Tell me a bit about the crm feature
+  img: img/software-img.png
+  features:
+    - icon: fa-anchor
+      text: lorem and stuff

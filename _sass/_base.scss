@@ -17,6 +17,21 @@ body {
 .tm-white a {
   color: #fff;
 }
+a.plain {
+  color: inherit;
+  &:hover {
+    color: #28a7e9;
+    text-decoration: inherit;
+    & .fa {
+      background-color: #fff !important; 
+    }
+  }
+  &:active,
+  &:focus {
+    color: inherit;
+    text-decoration: inherit;
+  }
+}
 /* start h1 group */
 h1 {
   margin-top: 0;
