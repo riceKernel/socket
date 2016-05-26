@@ -138,7 +138,7 @@ img {
 /* end preloader */
 /* start navigation */
 .navbar-default {
-  background: #41ACCC;
+  background: white;
   border: none;
   box-shadow: 0 2px 8px 0 rgba(50, 50, 50, 0.08);
   margin: 0 !important;
@@ -147,14 +147,14 @@ img {
   color: #28a7e9;
   font-size: 30px;
   font-weight: bold;
-  height: 70px;
+  height: 50px;
   line-height: 35px;
 }
 .navbar-default .nav li a {
   color: #666;
   font-size: 13px;
   font-weight: bold;
-  height: 70px;
+  height: 50px;
   line-height: 40px;
 }
 .navbar-default .nav li a.active,
