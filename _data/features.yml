@@ -1,12 +1,24 @@
-- name: crm
-  tagline: Full CRM platform
+- name: advisers
+  tagline: For Advisers
+  blurb: Tell me a bit about the crm feature
+  img: img/software-img.png
+  features:
+    - icon: fa-anchor
+      text: A powerful CRM to better utilise your client database
+    - icon: fa-anchor
+      text: Automation tools to free your day-to-day
+    - icon: fa-anchor
+      text: Something for someone
+
+- name: clients
+  tagline: Automatic actions
   blurb: Tell me a bit about the crm feature
   img: img/software-img.png
   features:
     - icon: fa-anchor
       text: lorem and stuff
 
-- name: auto actions
+- name: banks
   tagline: Automatic actions
   blurb: Tell me a bit about the crm feature
   img: img/software-img.png
