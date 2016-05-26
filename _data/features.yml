@@ -3,11 +3,11 @@
   blurb: Smarten your business with
   img: img/software-img.png
   features:
-    - icon: fa-anchor
+    - icon: fa-dashboard
       text: A powerful CRM to better utilise your client database
-    - icon: fa-anchor
+    - icon: fa-cogs
       text: Automation tools to free your day-to-day
-    - icon: fa-anchor
+    - icon: fa-gears
       text: Rich leads to source new and repeat business
 
 
@@ -16,12 +16,12 @@
   blurb: Improve your client's experience through
   img: img/software-img.png
   features:
-    - icon: fa-anchor
+    - icon: fa-question-circle
       text: Smarter apps to guide the application journey
-    - icon: fa-anchor
-      text: A toolkit that keeps them engaged and empowered
-    - icon: fa-anchor
-      text: Improved communication during and after the process
+    - icon: fa-briefcase
+      text: A smart toolkit to keep them engaged and empowered
+    - icon: fa-envelope-o
+      text: Improved communication from enquiry to settlement, and beyond
 
 
 - name: banks
@@ -29,9 +29,9 @@
   blurb: Increase productivity with
   img: img/software-img.png
   features:
-    - icon: fa-anchor
+    - icon: fa-file-pdf-o
       text: Complete and easy to process loan applications
-    - icon: fa-anchor
+    - icon: fa-commenting
       text: Better communication and follow-up
-    - icon: fa-check-circle
+    - icon: fa-calculator
       text: Tools to improve application processing and workflow
