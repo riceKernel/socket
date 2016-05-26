@@ -1,6 +1,6 @@
 - name: advisers
   tagline: For Advisers
-  blurb: Tell me a bit about the crm feature
+  blurb: Smarten your business with:
   img: img/software-img.png
   features:
     - icon: fa-anchor
@@ -8,20 +8,30 @@
     - icon: fa-anchor
       text: Automation tools to free your day-to-day
     - icon: fa-anchor
-      text: Something for someone
+      text: Rich leads to source new and repeat business
+
 
 - name: clients
-  tagline: Automatic actions
-  blurb: Tell me a bit about the crm feature
+  tagline: For Your Clients
+  blurb: Improve your client's experience through
   img: img/software-img.png
   features:
     - icon: fa-anchor
-      text: lorem and stuff
+      text: Smarter apps to guide the application journey
+    - icon: fa-anchor
+      text: A toolkit that keeps them engaged and empowered
+    - icon: fa-anchor
+      text: Improved communication during and after the process
+
 
 - name: banks
-  tagline: Automatic actions
-  blurb: Tell me a bit about the crm feature
+  tagline: For Banks
+  blurb: Increase productivity with
   img: img/software-img.png
   features:
     - icon: fa-anchor
-      text: lorem and stuff
+      text: Complete and easy to process loan applications
+    - icon: fa-anchor
+      text: Better communication and follow-up
+    - icon: fa-check-circle
+      text: Tools to improve application processing and workflow
