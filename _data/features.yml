@@ -6,8 +6,8 @@
     - icon: fa-dashboard
       text: A powerful CRM to better utilise your client database
     - icon: fa-cogs
-      text: Automation tools to free your day-to-day
-    - icon: fa-gears
+      text: Task and communication automation to free your day-to-day
+    - icon: fa-usd
       text: Rich leads to source new and repeat business
 
 
@@ -19,7 +19,7 @@
     - icon: fa-question-circle
       text: Smarter apps to guide the application journey
     - icon: fa-briefcase
-      text: A smart toolkit to keep them engaged and empowered
+      text: A toolkit of guides and calculators to engage and empower
     - icon: fa-envelope-o
       text: Improved communication from enquiry to settlement, and beyond
 
@@ -31,7 +31,7 @@
   features:
     - icon: fa-file-pdf-o
       text: Complete and easy to process loan applications
-    - icon: fa-commenting
+    - icon: fa-comment-o
       text: Better communication and follow-up
     - icon: fa-calculator
       text: Tools to improve application processing and workflow
