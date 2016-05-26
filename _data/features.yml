@@ -1,6 +1,6 @@
 - name: advisers
   tagline: For Advisers
-  blurb: Smarten your business with:
+  blurb: Smarten your business with
   img: img/software-img.png
   features:
     - icon: fa-anchor
