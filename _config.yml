@@ -6,16 +6,26 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Your awesome title
-email: your-email@domain.com
-description: > # this means to ignore newlines until "baseurl:"
+is_live: false
+permalink: pretty
+title: Socket
+email: socket@ricekernel.com
+phone: 021 717 419
+description: >
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "http://socket.co.nz" # the base hostname & protocol for your site
+company_name: riceKernel
+
+home:
+  tagline: Socket
+  blurb: A custom suite of tools to empower mortgage professionals and their clients
+
+contact:
+  title: Contact us
+  blurb: Contact us using the form or directly through email
 
 # Build settings
 markdown: kramdown
