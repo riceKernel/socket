@@ -21,12 +21,14 @@ $(function() {
 })
 
 function forWhom(whom) {
-  if(whom == 'adviser')
+  if(whom === 'adviser')
+    console.log('adviser');
     $('.borrowers-content').hide()
     $('.advisers-content').show()
     $('#forAdviserButton').addClass('active')
     $('#forBorrowerButton').removeClass('active')
-  if(whom == 'borrowers')
+  if(whom === 'borrowers')
+    console.log('borrowers');
     $('.borrowers-content').show()
     $('.advisers-content').hide()
     $('#forAdviserButton').removeClass('active')
