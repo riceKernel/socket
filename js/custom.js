@@ -23,15 +23,15 @@ $(function() {
 function forWhom(whom) {
   if(whom === 'advisers')
     console.log('adviser');
-    $('.borrowers-content').hide()
-    $('.advisers-content').show()
-    $('#forAdviserButton').addClass('active')
-    $('#forBorrowerButton').removeClass('active')
-  if(whom === 'borrowers')
+    $('.borrowers-content').hide();
+    $('.advisers-content').show();
+    $('#forAdviserButton').addClass('active');
+    $('#forBorrowerButton').removeClass('active');
+  else if(whom === 'borrowers')
     console.log('borrowers');
-    $('.borrowers-content').show()
-    $('.advisers-content').hide()
-    $('#forAdviserButton').removeClass('active')
-    $('#forBorrowerButton').addClass('active')
+    $('.borrowers-content').show();
+    $('.advisers-content').hide();
+    $('#forAdviserButton').removeClass('active');
+    $('#forBorrowerButton').addClass('active');
   //window.location.href = "#feature";
 }
