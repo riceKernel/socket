@@ -18,10 +18,10 @@
         <p>{{feature.blurb}}</p>
         {% for f in feature.features %}
         <div class="row">
-          <div class="feature-icon">
+          <div class="col-md-2 feature-icon">
             <i class="fa {{f.icon}}"></i>
           </div>
-          <div class='feature-text'>
+          <div class='col-md-10 feature-text-container'>
             <p class='feature-text'>
               {{f.text}}
             </p>

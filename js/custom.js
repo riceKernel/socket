@@ -33,5 +33,5 @@ function forWhom(whom) {
     $('.advisers-content').hide()
     $('#forAdviserButton').removeClass('active')
     $('#forBorrowerButton').addClass('active')
-  window.location.href = "#feature";
+  //window.location.href = "#feature";
 }
