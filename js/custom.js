@@ -21,7 +21,7 @@ $(function() {
 })
 
 function forWhom(whom) {
-  if(whom === 'adviser')
+  if(whom === 'advisers')
     console.log('adviser');
     $('.borrowers-content').hide()
     $('.advisers-content').show()
