@@ -23,11 +23,11 @@ home:
 
 contact:
   title: Contact us
-  blurb: Contact us using the form or directly through email
+  blurb: Contact us using the form below, or sign-up for a free trial using the sign-up link
 
 contactBorrowers:
   title: Find an adviser
-  blurb: Submit your details and your closest socket adviser will contact you quick-smart
+  blurb: For a better home loan experience, submit your details and your closest socket adviser will contact you quick-smart
 
 # Build settings
 markdown: kramdown
