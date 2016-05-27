@@ -5,9 +5,12 @@ layout: home
 {% if site.is_live %}
   {% include summary.html %}
 
-  {% include features.html %}
+  <div id='features'>
+    {% include features.html %}
 
-  {% include features-borrowers.html %}
+    {% include features-borrowers.html %}
+  </div>
+
 
   {% include pricing.html %}
 
