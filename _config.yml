@@ -25,5 +25,9 @@ contact:
   title: Contact us
   blurb: Contact us using the form or directly through email
 
+contactBorrowers:
+  title: Find an adviser
+  blurb: Submit your details and your closest socket adviser will contact you quick-smart
+
 # Build settings
 markdown: kramdown
