@@ -1,6 +1,7 @@
 // preloader
 $(window).load(function() {
-  $('.preloader').fadeOut(1000); // set duration in brackets
+  //$('.preloader').fadeOut(10000); // set duration in brackets
+  $('.preloader').fadeOut(3000); // Morgan 270516
 });
 
 $(function() {
@@ -20,6 +21,6 @@ $(function() {
 
 function forWhom(whom) {
   if(whom == 'adviser')
-    window.location('www.socket.co.nz#feature?user=adviser')
+    window.location.assign('www.socket.co.nz#feature?user=adviser')
   alert(whom)
 }

@@ -1,0 +1,37 @@
+- name: education
+  tagline: Understand
+  blurb: Understand every step of the process thanks to
+  img: img/software-img.png
+  features:
+    - icon: fa-dashboard
+      text: Socket's clever infographics of the mortgage adviser process
+    - icon: fa-cogs
+      text: Informative 'what to expect next' guides at every stage
+    - icon: fa-usd
+      text: Visibility of the state of your application from enquiry to settlement
+
+
+- name: tools
+  tagline: Be Empowered
+  blurb: Empower yourself with socket's toolkit for borrowers
+  img: img/software-img.png
+  features:
+    - icon: fa-file-pdf-o
+      text: Advanced loan planning software to model life events and repayment strategies
+    - icon: fa-comment-o
+      text: Rate and fee comparators to compare offers from lenders
+    - icon: fa-calculator
+      text: Simple to use calculators for estimating break-fee paybacks, lifetime interest savings, etc
+
+
+- name: communication
+  tagline: Socket for life
+  blurb: Appreciate the benefits of socket long after you have your new loan with
+  img: img/software-img.png
+  features:
+    - icon: fa-question-circle
+      text: Permanent access to socket's borrower toolkit
+    - icon: fa-briefcase
+      text: Regular unintrusive updates and education from your adviser
+    - icon: fa-envelope-o
+      text: Competitive offers and discounts for refinances and rollovers
