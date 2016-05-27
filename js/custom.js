@@ -2,6 +2,7 @@
 $(window).load(function() {
   //$('.preloader').fadeOut(10000); // set duration in brackets
   $('.preloader').fadeOut(3000); // Morgan 270516
+  $('.feature-borrowers').hide()
 });
 
 $(function() {
@@ -21,6 +22,11 @@ $(function() {
 
 function forWhom(whom) {
   if(whom == 'adviser')
-    window.location.assign('www.socket.co.nz#feature?user=adviser')
+    $('.borrowers-content').hide()
+    $('.advisers-content').show()
+  if(whom == 'borrowers')
+    $('.borrowers-content').show()
+    $('.advisers-content').hide()
+  window.location.href = "#feature";
   alert(whom)
 }
