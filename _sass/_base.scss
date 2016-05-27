@@ -388,10 +388,15 @@ footer {
   }
   #download img,
   #feature img {
-    margin-top: 30px;
+    margin-top: 100px;
   }
   #feature1 img {
     margin-bottom: 30px;
+  }
+}
+@media screen and ( min-width: 992px ) { //Morgan 270516
+  #feature img {
+    margin-top: 30px;
   }
 }
 @media screen and ( max-width: 767px ) {
@@ -404,6 +409,9 @@ footer {
   #pricing {
     padding-top: 20px;
     padding-bottom: 40px;
+  }
+  #feature img {
+    display: none;
   }
   #contact .overlay {
     padding-top: 40px;
@@ -441,14 +449,10 @@ footer {
 
 }
 
-.feature-img {
-  display: none;
-}
 
 @media screen and ( max-width: 767px ) {
   .feature-img {
-    display: block;
-    margin-top: 100px;
+    display: none;
   }
 }
 @media screen and ( max-width: 991px ) {
