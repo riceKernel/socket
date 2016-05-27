@@ -3,7 +3,7 @@
   blurb: Understand every step of the process thanks to
   img: img/software-img.png
   features:
-    - icon: fa-map
+    - icon: fa-sitemap
       text: Socket's clever infographics of the mortgage adviser process
     - icon: fa-info
       text: Informative 'what to expect next' guides at every stage
@@ -18,7 +18,7 @@
   features:
     - icon: fa-area-chart
       text: Advanced loan planning software to model life events and repayment strategies
-    - icon: fa-percent
+    - icon: fa-sliders
       text: Rate and fee comparators to compare offers from lenders
     - icon: fa-calculator
       text: Simple to use calculators for estimating break-fee paybacks, lifetime interest savings, etc

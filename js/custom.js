@@ -1,7 +1,7 @@
 // preloader
 $(window).load(function() {
   //$('.preloader').fadeOut(10000); // set duration in brackets
-  $('.preloader').fadeOut(3000); // Morgan 270516
+  $('.preloader').fadeOut(1500); // Morgan 270516
   $('.borrowers-content').hide()
 });
 
