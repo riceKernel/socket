@@ -441,18 +441,35 @@ footer {
 
 }
 
-.feature-icon {
+.feature-img {
+  display: none;
+}
+
+@media screen and ( max-width: 767px ) {
+  .feature-img {
+    display: block;
+    margin-top: 100px;
+  }
+}
+@media screen and ( max-width: 991px ) {
+  .feature-img {
+    display:block;
+    margin-top: 30px;
+  }
+}
+
+.feature-icon { //Morgan 270516
   height: 60px;
   width: 50px;
   padding: 10px 10px 10px 0px;
 }
 
-.feature-text-container {
+.feature-text-container { //Morgan 270516
   height: 60px;
   vertical-align: middle;
 }
 
-.feature-text {
+.feature-text { //Morgan 270516
   transform: translateY(-50%);
-  margin-top: 30px;
+  margin-top: 25px;
 }
