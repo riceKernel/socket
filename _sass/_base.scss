@@ -183,6 +183,7 @@ img {
   margin-top: 50px;
   text-align: center;
   width: 100%;
+
 }
 #home p {
   font-weight: 400;
@@ -191,7 +192,8 @@ img {
 }
 #home img {
   display: inline-block;
-  margin-top: 30px;
+  margin-top: 30px; 
+  max-height: 66vh; //Morgan 270516
 }
 /* end home */
 /* start divider */
