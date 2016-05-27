@@ -17,11 +17,18 @@
         <h2 class="text-uppercase">{{feature.tagline}}</h2>
         <p>{{feature.blurb}}</p>
         {% for f in feature.features %}
+        <div class="row">
+          <div class=col-md-3>
+            <i class="fa {{f.icon}}"></i>
+          </div>
+          <div class='col-md-9'>
+            <p>
+                {{f.text}}
+              </p>
+          </div>
+        </div>
 
-        <i class="fa {{f.icon}}"></i>
-        <p>
-            {{f.text}}
-          </p>
+
 
         {% endfor %}
       </div>
