@@ -1,17 +1,17 @@
 - name: responsive
   tagline: Responsive
   blurb: >
-    Socket is built to work on any device - from cellphones and tablets to laptops, desktops, and even TVs!
+    Built to work on any device - from cellphones and tablets to laptops, desktops, and even TVs!
   icon: fa-laptop
 
 - name: secure
   tagline: Secure
   blurb: >
-    Featuring the latest in security protocols to keep your clients' data safe.
+    Featuring the latest in security protocols to keep client data safe
   icon: fa-lock
 
 - name: global
   tagline: Global
   blurb: >
-    Work where you are - access Socket from anywhere you can connect to the internet.
+    Work where you are - access anywhere you can connect to the internet
   icon: fa-globe

@@ -8,20 +8,18 @@
 # Site settings
 is_live: true
 permalink: pretty
-title: Socket
+title: socket
 email: info@socket.co.nz
 phone: 027 771 0072
 description: >
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Powerful apps for Mortgage Advisers, their clients, and assessors.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://www.socket.co.nz" # the base hostname & protocol for your site
 company_name: riceKernel
 
 home:
-  tagline: Socket
-  blurb: A custom suite of tools to empower mortgage professionals and their clients
+  tagline: socket
+  blurb: A cutting-edge suite of purpose-built tools for the mortgage adviser industry
 
 contact:
   title: Contact us

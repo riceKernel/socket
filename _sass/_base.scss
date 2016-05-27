@@ -164,7 +164,7 @@ img {
 }
 .navbar-default .navbar-toggle {
   border: none;
-  padding-top: 20px;
+  padding-top: 10px;
 }
 .navbar-default .navbar-toggle .icon-bar {
   background: #28a7e9;
@@ -192,8 +192,8 @@ img {
 }
 #home img {
   display: inline-block;
-  margin-top: 30px; 
-  max-height: 66vh; //Morgan 270516
+  margin-top: 10px;
+  max-height: 60vh; //Morgan 270516
 }
 /* end home */
 /* start divider */
@@ -419,4 +419,14 @@ footer {
 
 .navbar-logo {
   max-height: 25px;
+}
+
+.button-for-whom { //Morgan 270516
+  border: 1px solid white;
+  color: white;
+  background-color: rgba(0,0,0,0);
+  &:hover {
+    background-color: white;
+    color:#5e5e5e
+  }
 }
