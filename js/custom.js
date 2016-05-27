@@ -19,5 +19,7 @@ $(function() {
 })
 
 function forWhom(whom) {
+  if(whom == 'adviser')
+    window.location('www.socket.co.nz#feature?user=adviser')
   alert(whom)
 }
