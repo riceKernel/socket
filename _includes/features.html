@@ -18,7 +18,9 @@
         <p>{{feature.blurb}}</p>
         {% for f in feature.features %}
         <p>
-          <i class="fa {{f.icon}}"></i> {{f.text}}
+          <i class="fa {{f.icon}}"></i> <p>
+            {{f.text}}
+          </p>
         </p>
         {% endfor %}
       </div>

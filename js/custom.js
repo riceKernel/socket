@@ -24,13 +24,12 @@ function forWhom(whom) {
   if(whom == 'adviser')
     $('.borrowers-content').hide()
     $('.advisers-content').show()
-    $('.forAdviserButton').addClass('active')
-    $('.forBorrowerButton').removeClass('active')
+    $('#forAdviserButton').addClass('active')
+    $('#forBorrowerButton').removeClass('active')
   if(whom == 'borrowers')
     $('.borrowers-content').show()
     $('.advisers-content').hide()
-    $('.forAdviserButton').removeClass('active')
-    $('.forBorrowerButton').addClass('active')
+    $('#forAdviserButton').removeClass('active')
+    $('#forBorrowerButton').addClass('active')
   window.location.href = "#feature";
-  alert(whom)
 }
