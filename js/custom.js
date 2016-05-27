@@ -17,3 +17,7 @@ $(function() {
     $(".navbar-collapse").collapse('hide');
   });
 })
+
+function forWhom(whom) {
+  alert(whom)
+}
