@@ -1,37 +1,37 @@
-- name: advisers
-  tagline: For Advisers
-  blurb: Smarten your business with
+- name: crm
+  tagline: Socket CRM
+  blurb: A powerful CRM designed to improve your workflow
   img: img/software-img.png
   features:
     - icon: fa-dashboard
-      text: A powerful CRM to better utilise your client database
+      text: Intuitive and clear dashboards, client records, and financial data
     - icon: fa-cogs
-      text: Task and communication automation to free your day-to-day
+      text: Automated tasks and communications to free your day-to-day
     - icon: fa-usd
       text: Rich leads to source new and repeat business
 
 
-- name: clients
-  tagline: For Your Clients
-  blurb: Improve your client's experience through
+- name: la
+  tagline: Socket Loan App
+  blurb: A web-based loan application for a smarter, easier application journey
   img: img/software-img.png
   features:
     - icon: fa-question-circle
-      text: Smarter apps to guide the application journey
-    - icon: fa-briefcase
-      text: A toolkit of guides and calculators to engage and empower
-    - icon: fa-envelope-o
-      text: Improved communication from enquiry to settlement, and beyond
+      text: Collaborate with your clients on their application - improving their experience and your productivity
+    - icon: fa-calculator
+      text: Automated calculation of tax, foreign currency (over 150 currencies supported), LVR and UMI
+    - icon: fa-certificate
+      text: Improve your brand image by replacing paper forms with a sleek and attractive web-app
 
 
-- name: banks
-  tagline: For Banks
-  blurb: Increase productivity with
+- name: toolkit
+  tagline: Socket Tools
+  blurb: Functional and attractive loan tools for your clients
   img: img/software-img.png
   features:
-    - icon: fa-file-pdf-o
-      text: Complete and easy to process loan applications
-    - icon: fa-comment-o
-      text: Better communication and follow-up
-    - icon: fa-calculator
-      text: Tools to improve application processing and workflow
+    - icon: fa-sliders
+      text: Quick and easy repayment calculators for you and your client
+    - icon: fa-area-chart
+      text: A powerful loan planner to graph payment and financial events over the life of the loan
+    - icon: fa-line-chart
+      text: Smart commission calculation and management - including trail!
