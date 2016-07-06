@@ -450,11 +450,7 @@ footer {
 }
 
 /*
-@media screen and ( max-width: 767px ) {
-  .feature-img {
-    display: none;
-  }
-}
+
 @media screen and ( max-width: 991px ) {
   .feature-img {
     display:block;
@@ -476,4 +472,11 @@ footer {
 .feature-text { //Morgan 270516
   transform: translateY(-50%);
   margin-top: 25px;
+}
+
+@media screen and ( max-width: 767px ) {
+  .feature-text-container { //Morgan 270516
+    height: 75px;
+    vertical-align: middle;
+  }
 }
