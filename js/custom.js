@@ -41,5 +41,5 @@ function forWhom(whom) {
 function recommendSocket() {
   subject = 'Why not try a socket free trial?';
   body = 'If you sign up for a free trial at www.socket.co.nz we can both take advantage of their sweet suite of tools. I would like that. Would you like that?';
-  window.location.href = "mailto:''"; //?subject=#{subject}&body=#{body}";
+  window.location.href = "mailto:''?subject=" + subject + "&body=" + body;
 }
