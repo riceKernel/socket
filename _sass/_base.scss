@@ -177,7 +177,7 @@ img {
 /* end navigation */
 /* start home */
 #home {
-  background: url('../img/main-bg1.jpg') no-repeat;
+  background: url('../img/main-bg2.png') no-repeat;
   background-size: cover;
   color: #fff;
   margin-top: 50px;
@@ -298,8 +298,8 @@ img {
   border-radius: 0;
   color: #28a7e9;
   font-weight: bold;
-  padding-right: 40px;
-  padding-left: 40px;
+  //padding-right: 40px;  //morgan commented 050716
+  //padding-left: 40px;  //morgan commented 050716
   margin-top: 20px;
   margin-bottom: 30px;
   transition: all 0.3s ease;
@@ -326,7 +326,7 @@ img {
 /* end download */
 /* start contact */
 #contact {
-  background: url('../img/contact-bg.jpg') no-repeat;
+  background: url('../img/contact-bg2.png') no-repeat;
   background-size: cover;
   color: #fff;
 }
@@ -476,7 +476,7 @@ footer {
 
 @media screen and ( max-width: 767px ) {
   .feature-text-container { //Morgan 270516
-    height: 75px;
+    height: 80px;
     vertical-align: middle;
   }
 }
