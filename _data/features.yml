@@ -26,11 +26,11 @@
 
 - name: toolkit
   tagline: Socket Tools
-  blurb: Functional and attractive loan tools for your clients
+  blurb: Functional and attractive loan tools for you and your clients
   img: img/software-img.png
   features:
     - icon: fa-sliders
-      text: Quick and easy repayment calculators for you and your client
+      text: Quick and easy loan repayment calculators
     - icon: fa-area-chart
       text: A powerful loan planner to graph payment and financial events over the life of the loan
     - icon: fa-line-chart

@@ -1,27 +1,28 @@
-- name: education
-  tagline: Understand
-  blurb: Understand every step of the process thanks to
+- name: smarter
+  tagline: Get smart
+  blurb: Take advantage of socket's famous loan app to complete your application
   img: img/software-img.png
   features:
-    - icon: fa-sitemap
-      text: Socket's clever infographics of the mortgage adviser process
+    - icon: fa-cloud
+      text: Access the application on any device, at any time, with or without your adviser present
     - icon: fa-info
-      text: Informative 'what to expect next' guides at every stage
-    - icon: fa-heartbeat
-      text: Visibility of the state of your application from enquiry to settlement
+      text: Enjoy an intuitive and simple application, designed for first home buyers and seasoned property investors alike
+    - icon: fa-camera
+      text: Upload or photograph your supporting documents direct to the application - no need to print or copy docs
 
 
 - name: tools
-  tagline: Be Empowered
-  blurb: Empower yourself with socket's toolkit for borrowers
+  tagline: Stay smart
+  blurb: Empower yourself with socket's powerful tools for borrowers
   img: img/software-img.png
   features:
+    - icon: fa-calculator
+      text: Simple to use calculators for estimating payments, break-fee paybacks, lifetime interest savings, etc
     - icon: fa-area-chart
       text: Advanced loan planning software to model life events and repayment strategies
     - icon: fa-sliders
       text: Rate and fee comparators to compare offers from lenders
-    - icon: fa-calculator
-      text: Simple to use calculators for estimating break-fee paybacks, lifetime interest savings, etc
+
 
 
 - name: communication
@@ -29,9 +30,9 @@
   blurb: Appreciate the benefits of socket long after you have your new loan with
   img: img/software-img.png
   features:
-    - icon: fa-briefcase
-      text: Permanent access to socket's borrower toolkit
     - icon: fa-envelope
       text: Regular unintrusive updates and education from your adviser
     - icon: fa-usd
       text: Competitive offers and discounts for refinances and rollovers
+    - icon: fa-fast-forward
+      text: Streamlined applications for top-ups or investment loans
