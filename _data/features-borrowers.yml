@@ -14,7 +14,7 @@
 - name: tools
   tagline: Stay smart
   blurb: Empower yourself with socket's powerful tools for borrowers
-  img: img/software-img.png
+  img: img/loan-planner-in-mac.png
   features:
     - icon: fa-calculator
       text: Simple to use calculators for estimating payments, break-fee paybacks, lifetime interest savings, etc
