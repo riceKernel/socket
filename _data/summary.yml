@@ -1,13 +1,13 @@
 - name: cloud-based
   tagline: Cloud-based
   blurb: >
-    Access from anywhere, any time
+    Access from any internet connected device, anywhere, any time
   icon: fa-cloud
 
 - name: responsive
   tagline: Responsive
   blurb: >
-    Built to work on any device - from cellphones and tablets to laptops, desktops, and even TVs!
+    Built to work on any device - from phones and tablets to laptops, desktops, and even TVs!
   icon: fa-laptop
 
 - name: secure

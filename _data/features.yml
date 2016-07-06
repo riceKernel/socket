@@ -1,7 +1,7 @@
 - name: crm
   tagline: Socket CRM
   blurb: A powerful CRM designed to improve your workflow
-  img: img/software-img.png
+  img: img/crm-in-mac.png
   features:
     - icon: fa-dashboard
       text: Intuitive and clear dashboards, client records, and financial data
@@ -14,7 +14,7 @@
 - name: la
   tagline: Socket Loan App
   blurb: A web-based loan application for a smarter, easier application journey
-  img: img/software-img.png
+  img: img/loan-app-financials-in-mac.png
   features:
     - icon: fa-question-circle
       text: Collaborate with your clients on their application - improving their experience and your productivity
@@ -27,7 +27,7 @@
 - name: toolkit
   tagline: Socket Tools
   blurb: Functional and attractive loan tools for you and your clients
-  img: img/software-img.png
+  img: img/loan-planner-in-mac.png
   features:
     - icon: fa-sliders
       text: Quick and easy loan repayment calculators
