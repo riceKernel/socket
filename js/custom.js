@@ -26,6 +26,7 @@ function forWhom(whom) {
     $('.advisers-content').show();
     $('#forAdviserButton').addClass('active');
     $('#forBorrowerButton').removeClass('active');
+
   };
 
   if(whom === 'borrowers') {
@@ -34,5 +35,5 @@ function forWhom(whom) {
     $('#forAdviserButton').removeClass('active');
     $('#forBorrowerButton').addClass('active');
   };
-  //window.location.href = "#feature";
+  document.getElementById("feature").scrollIntoView()
 }
