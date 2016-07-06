@@ -35,5 +35,5 @@ function forWhom(whom) {
     $('#forAdviserButton').removeClass('active');
     $('#forBorrowerButton').addClass('active');
   };
-  document.getElementById("feature").scrollIntoView()
+  document.getElementById("divider").scrollIntoView()
 }
