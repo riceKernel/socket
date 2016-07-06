@@ -1,3 +1,9 @@
+- name: cloud-based
+  tagline: Cloud-based
+  blurb: >
+    Access from anywhere, any time
+  icon: fa-cloud
+
 - name: responsive
   tagline: Responsive
   blurb: >
@@ -7,11 +13,11 @@
 - name: secure
   tagline: Secure
   blurb: >
-    Featuring the latest in security protocols to keep client data safe
+    Featuring the latest in security protocols to keep your data, and your client's data safe
   icon: fa-lock
 
-- name: global
-  tagline: Global
+- name: built-for-you
+  tagline: Built for you
   blurb: >
-    Work where you are - access anywhere you can connect to the internet
-  icon: fa-globe
+    Purpose-built for mortgage advisers and their clients - every thing you need and nothing you don't
+  icon: fa-home
