@@ -2,7 +2,7 @@
 $(window).load(function() {
   //$('.preloader').fadeOut(10000); // set duration in brackets
   $('.preloader').fadeOut(1500); // Morgan 270516
-  $('.borrowers-content').hide()
+  //$('.borrowers-content').hide()
 });
 
 $(function() {
@@ -19,7 +19,7 @@ $(function() {
     $(".navbar-collapse").collapse('hide');
   });
 })
-
+/*
 function forWhom(whom) {
   if(whom === 'advisers') {
     $('.borrowers-content').hide();
@@ -37,6 +37,7 @@ function forWhom(whom) {
   };
   document.getElementById("divider").scrollIntoView()
 }
+*/
 
 function recommendSocket() {
   subject = 'Why not try a socket free trial?';
