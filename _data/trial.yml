@@ -1,6 +1,6 @@
 - name: trial
   tagline: Free Trial
-  blurb: Get unlimited access to:
+  blurb: Get unlimited access to
   img: ../img/crm-in-mac.png
   features:
     - icon: fa-dashboard
