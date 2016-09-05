@@ -437,6 +437,8 @@ footer {
   background-color: rgba(0,0,0,0);
   padding: 10px 25px;
   margin: 5px;
+  width: 75%;
+  max-width: 150px;
 
   &:hover {
     opacity: 0.7;
