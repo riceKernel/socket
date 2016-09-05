@@ -1,5 +1,6 @@
 - name: trial
   tagline: Free Trial
+  subtext: Sign up for a free trial now - no credit card required!
   blurb: Get unlimited access to
   img: ../img/crm-in-mac.png
   features:
