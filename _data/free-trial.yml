@@ -1,0 +1,13 @@
+- name: trial
+  tagline: Free Trial - No Credit Card Required!
+  blurb: Get unlimited access to
+  img: img/crm-in-mac.png
+  features:
+    - icon: fa-dashboard
+      text: Socket CRM - purpose built for Mortgage Advisers
+    - icon: fa-calculator
+      text: Our popular Socket Loan App - A web-based loan application
+    - icon: fa-area-chart
+      text: Our brand new Loan Planner - a powerful planning and modelling tool
+    - icon: fa-usd
+      text: Socket generated leads and referrals
