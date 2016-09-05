@@ -1,7 +1,7 @@
 - name: smarter
   tagline: Get smart
   blurb: Take advantage of socket's famous loan app to complete your application
-  img: img/loan-app-splash-in-mac.png
+  img: ../img/loan-app-splash-in-mac.png
   features:
     - icon: fa-cloud
       text: Access the application on any device, at any time, with or without your adviser present
@@ -14,7 +14,7 @@
 - name: tools
   tagline: Stay smart
   blurb: Empower yourself with socket's powerful tools for borrowers
-  img: img/loan-planner-in-mac.png
+  img: ../img/loan-planner-in-mac.png
   features:
     - icon: fa-calculator
       text: Simple to use calculators for estimating payments, break-fee paybacks, lifetime interest savings, etc
