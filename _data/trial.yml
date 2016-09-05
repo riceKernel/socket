@@ -1,6 +1,6 @@
 - name: trial
-  tagline: Free Trial - No Credit Card Required!
-  blurb: Get unlimited access to
+  tagline: Free Trial
+  blurb: Get unlimited access to:
   img: ../img/crm-in-mac.png
   features:
     - icon: fa-dashboard
