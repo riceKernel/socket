@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Socket goes live!"
-date:   2016-09-012 09:00:00 +1200
+date:   2016-09-12 09:00:00 +1200
 categories: socket
 tags: crm la
 ---
