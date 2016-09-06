@@ -1,5 +1,5 @@
-- name: smarter
-  tagline: Get smart
+- name: convenience
+  tagline: Convenient
   blurb: Take advantage of socket's famous loan app to complete your application
   img: ../img/loan-app-splash-in-mac.png
   features:
@@ -8,12 +8,12 @@
     - icon: fa-info
       text: Enjoy an intuitive and simple application, designed for first home buyers and seasoned property investors alike
     - icon: fa-camera
-      text: Upload or photograph your supporting documents direct to the application - no need to print or copy docs
+      text: Upload or photograph your supporting documents direct to the application - no need to print or copy pages
 
 
-- name: tools
-  tagline: Stay smart
-  blurb: Empower yourself with socket's powerful tools for borrowers
+- name: power
+  tagline: Powerful
+  blurb: Empower yourself with socket's suite of tools for borrowers
   img: ../img/loan-planner-in-mac.png
   features:
     - icon: fa-calculator
@@ -21,18 +21,18 @@
     - icon: fa-area-chart
       text: Advanced loan planning software to model life events and repayment strategies
     - icon: fa-sliders
-      text: Rate and fee comparators to compare offers from lenders
+      text: Rate and fee comparators to compare offers from lenders (coming soon!)
 
 
 
 - name: communication
-  tagline: Socket for life
-  blurb: Appreciate the benefits of socket long after you have your new loan with
+  tagline: Informative
+  blurb: Appreciate the benefits of socket's automated updates and simplified communications
   img: ../img/loan-planner-pmt-calc-in-mac.png
   features:
     - icon: fa-envelope
-      text: Regular unintrusive updates and education from your adviser
-    - icon: fa-usd
-      text: Competitive offers and discounts for refinances and rollovers
-    - icon: fa-fast-forward
-      text: Streamlined applications for top-ups or investment loans
+      text: Regular updates on the progress of your application and your next steps
+    - icon: fa-question-circle-o
+      text: Simple to follow guides and advice at every stage
+    - icon: fa-laptop
+      text: Full access to your loan application throughout the home buying journey
