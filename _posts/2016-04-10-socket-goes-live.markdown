@@ -11,6 +11,7 @@ After 12 months of development and close collaboration with Aim Financial Servic
 
 
 
+
 #### The Socket Suite
 **Socket CRM:** Our CRM tool is purpose-built for Mortgage Advisers, providing powerful client management functions, automation of common tasks, and tracking of client loan applications and fixed loan expiries.
 
@@ -20,8 +21,13 @@ After 12 months of development and close collaboration with Aim Financial Servic
 
 
 
+
 #### Free Trial
 Socket are offering a 1 month free trial to all advisers wishing to take our apps for a spin.  The free trial gives full access to our suite of apps, as well as the opportunity to contribute to our backlog of feature requests and new app ideas.  You can sign up for our free trial at socket.co.nz.
+
+
+
+
 
 
 
