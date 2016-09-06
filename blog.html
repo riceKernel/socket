@@ -2,16 +2,16 @@
 layout: default
 ---
 <div class="row">
-  <div class="col-sm-2"></div>
-  <div class="col-sm-8">
+  <div class="col-sm-1"></div>
+  <div class="col-sm-10">
     <h3>Recent Blog Posts</h3>
   </div>
-  <div class="col-sm-2"></div>
+  <div class="col-sm-1"></div>
 </div>
 <div class="row">
-  <div class="col-sm-2"></div>
-  <div class="col-sm-8">
-    <ul class="post-list">
+  <div class="col-sm-1"></div>
+  <div class="col-sm-10">
+    <ul class="post-list pad10">
       {% for post in site.posts %}
         <li>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a><span class="post-meta"> - {{ post.date | date: "%b %-d, %Y" }}</span>
@@ -19,5 +19,5 @@ layout: default
       {% endfor %}
     </ul>
   </div>
-  <div class="col-sm-2"></div>
+  <div class="col-sm-1"></div>
 </div>
