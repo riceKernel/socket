@@ -1,26 +1,24 @@
 ---
 layout: post
 title:  "Socket goes live!"
-date:   2016-04-10 15:05:36 +1200
+date:   2016-09-012 09:00:00 +1200
 categories: socket
 tags: crm la
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+The riceKernel team are stoked to launch Socket, our suite of apps for Mortgage Advisers and their clients.
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+After 12 months of development and close collaboration with Aim Financial Services and LIME Group our CRM, Loan Application and Loan Planner apps are all now available to all NZ Mortgage Advisers.  
 
-Jekyll also offers powerful support for code snippets:
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+The Socket Suite
+Socket CRM: Our CRM tool is purpose-built for Mortgage Advisers, providing powerful client management functions, automation of common tasks, and tracking of client loan applications and fixed loan expiries.
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+Socket Loan App: With support for over 150 foreign currencies, automated calculation of loan repayments, income tax, kiwisaver, and student loan repayments, and designed to be completed by the client or the adviser on any device - our Loan App is designed to improve the client experience and streamline the completion of the application at interview.
 
-[jekyll-docs]: http://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+Socket Loan Planner: Our Loan Planner is built for those clients who want more than a repayment calculator - and is intended to provide a competitive advantage to advisers who offer it to their clients.  With advanced modeling of different loan events over the life of the loan, your clients can create detailed scenarios and compare the savings they can achieve.
+
+Free Trial
+Socket are offering a 1 month free trial to all advisers wishing to take our apps for a spin.  The free trial gives full access to our suite of apps, as well as the opportunity to contribute to our backlog of feature requests and new app ideas.  You can sign up for our free trial at [socket.co.nz][socket-co]
+
+Special Thanks
+The riceKernel team would like to sincerely thank the awesome teams at AIM Financial Services and LIME Group for their patience and advice during the development of Socket, and for their ongoing support.  
