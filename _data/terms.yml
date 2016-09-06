@@ -1,0 +1,31 @@
+
+- title: Definitions
+  definitions:
+    - def: Agreement
+      expl: means these Terms of Service
+    - def: Data
+      expl: means any data inputted by you or with your authority into any socket tool or app
+    - def: “Firm”
+      expl: an entity to which one or more users may belong to in the socket suite.  Firms will be billed, based on their subscription arrangement, for all users belonging to that firm, prorating for the number of days in the billing period each user was registered. Every user must belong to a firm.
+    - def: Firm Admin
+      expl: A user registered for the socket suite under a firm, who has the access level of ‘administrator’. Administrators are responsible for ensuring payment details for their firm are current, and managing the users who have access (and thereby the firm is charged for). Every registered firm must have at least one Firm Admin.
+    - def: Intellectual Property Right
+      expl: means any patent, trade mark, service mark, copyright, moral right, right in a design, know-how and any other intellectual or industrial property rights, anywhere in the world whether or not registered.
+    - def: Public User
+      expl: means any user granted restricted access as a client or prospective client, by a registered user.
+    - def: RiceKernel
+      expl: means the New Zealand limited liability company owning the socket brand and its related intellectual property.  All legal rights inferred to belong to socket within this document in effect belong to riceKernel Ltd
+    - def: Service
+      expl: means the socket suite of tools as a whole, or any part therein.
+    - def: Socket
+      expl: means the wholly owned brand belonging to riceKernel Ltd, and all intellectual property, designs and copyright associated with the brand
+    - def: Subscription
+      expl: means the periodic access arrangement (paid or otherwise) for use of the socket suite of tools and apps.
+    - def: Tools
+      expl: means any app, web-tool, web-site, webservice, Application Programming Interface, or physical document-based tool provided by socket, whether charged for or free
+    - def: User
+      expl: means any person or entity granted access to the socket suite, whether paid or otherwise
+    - def: You
+      expl: means the registering user, and where the context permits, any entity on whose behalf the user has registered. "Your" has a corresponding meaning.
+
+- title: Use of Socket Tools and/or Apps
