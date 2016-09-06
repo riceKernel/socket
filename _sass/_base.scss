@@ -432,27 +432,7 @@ footer {
   max-height: 25px;
 }
 
-.button-for-whom { //Morgan 270516
-  border: 1px solid white;
-  color: white;
-  background-color: rgba(0,0,0,0);
-  padding: 10px 25px;
-  margin: 5px;
-  width: 75%;
-  max-width: 500px;
 
-  &:hover {
-    opacity: 0.7;
-    background-color: white;
-    color:#5e5e5e;
-  };
-
-  &.active {
-    background-color: white;
-    color:#5e5e5e;
-  }
-
-}
 
 /*
 
@@ -504,4 +484,49 @@ footer {
 
 .full-width {
   width: 100%;
+}
+
+.button-for-whom { //Morgan 270516
+  border: 1px solid white;
+  color: white;
+  background-color: rgba(0,0,0,0);
+  padding: 10px 25px;
+  margin: 5px;
+  width: 75%;
+  max-width: 500px;
+
+  &:hover {
+    opacity: 0.7;
+    background-color: white;
+    color:#5e5e5e;
+  };
+
+  &.active {
+    background-color: white;
+    color:#5e5e5e;
+  }
+
+}
+
+.button-like-link {
+  border: 1px solid white;
+  color: white;
+  background-color: rgba(0,0,0,0);
+  padding: 10px 25px;
+  margin: 5px;
+  width: 100%;
+  text-decoration: none;
+
+  &:hover {
+    opacity: 0.7;
+    background-color: white;
+    color:#5e5e5e;
+    text-decoration: none;
+  };
+
+  &.active {
+    background-color: white;
+    color:#5e5e5e;
+    text-decoration: none;
+  }
 }
