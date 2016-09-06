@@ -17,7 +17,7 @@
     </div>
     <div class="collapse navbar-collapse">
       <ul class="nav navbar-nav navbar-right text-uppercase">
-        {% unless page.title='test' %}
+        {% unless page.title == 'home' %}
         <li><a href="../" class="external">For Advisers</a></li>
         {% endunless %}
         {% unless page.title == 'borrowers' %}
@@ -29,8 +29,9 @@
         <!--
         <li><a href="blog" class="external">Blog</a></li>
         -->
-
+        {% unless page.title == 'home' %}
         <li><a href="/trial" class="external">Free Trial</a></li>
+        {% endunless %}
         <li><a href="https://crm.socket.co.nz/login" class="external">Log in</a></li>
         <li><a href="https://adviser-crm.herokuapp.com/dashboard" class="external">Log in</a></li>
       </ul>
