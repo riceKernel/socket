@@ -11,7 +11,8 @@ After 12 months of development and close collaboration with Aim Financial Servic
 
 
 
-
+<br>
+<br>
 #### The Socket Suite
 **Socket CRM:** Our CRM tool is purpose-built for Mortgage Advisers, providing powerful client management functions, automation of common tasks, and tracking of client loan applications and fixed loan expiries.
 
