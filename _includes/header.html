@@ -28,7 +28,11 @@
         <li><a href="/blog" class="external">Blog</a></li>
         {% endunless %}
         {% unless page.title == 'SOCKET - free trial' %}
-        <li><a href="/trial" class="external">Free Trial</a></li>
+          {% if page.title == 'SOCKET - for borrowers' %}
+            <li><a href="/findadviser" class="external">Find an Adviser</a></li>
+          {% else %}
+            <li><a href="/trial" class="external">Free Trial</a></li>
+          {% endif %}
         {% endunless %}
         <li><a href="https://crm.socket.co.nz/login" class="external">Log in</a></li>
       </ul>
