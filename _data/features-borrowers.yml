@@ -32,7 +32,7 @@
   features:
     - icon: fa-envelope
       text: Regular updates on the progress of your application and your next steps
-    - icon: fa-question-circle-o
+    - icon: fa-question
       text: Simple to follow guides and advice at every stage
     - icon: fa-laptop
       text: Full access to your loan application throughout the home buying journey
