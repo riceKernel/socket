@@ -11,7 +11,7 @@
         </div>
         <div class="col-md-1"></div>
       </div>
-      {% unless page.title == 'borrowers' %}
+      {% if page.title == 'SOCKET - for advisers' %}
       <div class="row">
         <div class="col-md-2"></div>
         <div class="col-md-8 wow fadeIn" data-wow-delay="0.3s">
@@ -19,7 +19,16 @@
         </div>
         <div class="col-md-2"></div>
       </div>
-      {% endunless %}
+      {% endif %}
+      {% if page.title == 'SOCKET - for borrowers' %}
+      <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-8 wow fadeIn" data-wow-delay="0.3s">
+          <a class='button-like-link' href='/findadviser' target='_blank'>FIND A SOCKET ADVISER</a>
+        </div>
+        <div class="col-md-2"></div>
+      </div>
+      {% endif %}
     </div>
   </div>
 </section>
