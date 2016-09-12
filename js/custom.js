@@ -43,8 +43,10 @@ $("#contactUsForm").submit(function(e) {
     console.log(e);
     var data = $( this ).serialize()
     var url = "https://adviser-api-stage.herokuapp.com/api/open/leads"; // the script where you handle the form input.
+
+    //url = url + "?" + data
+    data = data + "&lead_source_token=12312a069b07a80711d5c2ab011dffab0199e8d430b8b07f96932";
     console.log(data);
-    url = url + "?" + data
     $.ajax({
            type: "POST",
            url: url,
