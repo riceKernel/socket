@@ -70,12 +70,15 @@ $("#findAdviserForm").submit(function(e) {
            success: function(data)
            {
                alert("Thank you for your request - A socket adviser near you will be in touch very soon!"); // show response from the php script.
+
            }
-         });
+         }).done(function() {
+           document.getElementById("findAdviserForm").reset();
+           $("#findAdviserSubmit").removeClass('submit-button-disabled')
+           $("#findAdviserSubmit").prop('disabled', false);
+          });
     e.preventDefault();
-    document.getElementById("findAdviserForm").reset();
-    $("#findAdviserSubmit").removeClass('submit-button-disabled')
-    $("#findAdviserSubmit").prop('disabled', false);
+
 });
 
 function recommendSocket() {
