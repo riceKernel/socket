@@ -44,6 +44,7 @@ $("#contactUsForm").submit(function(e) {
     var data = $( this ).serialize()
     var url = "https://adviser-api-stage.herokuapp.com/api/open/leads"; // the script where you handle the form input.
     console.log(data);
+    url = url + "?" + data
     $.ajax({
            type: "POST",
            url: url,
