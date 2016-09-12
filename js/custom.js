@@ -39,14 +39,11 @@ function forWhom(whom) {
 }
 */
 
+//the contact us form submission:
 $("#contactUsForm").submit(function(e) {
-    console.log(e);
     var data = $( this ).serialize()
-    var url = "https://adviser-api-stage.herokuapp.com/api/open/leads"; // the script where you handle the form input.
-
-    //url = url + "?" + data
+    var url = "https://adviser-api-stage.herokuapp.com/api/open/leads";
     data = data + "&lead_source_token=a069b07a80711d5c2ab011dffab0199e8d430b8b07f96932";
-    console.log(data);
     $.ajax({
            type: "POST",
            url: url,
@@ -56,8 +53,24 @@ $("#contactUsForm").submit(function(e) {
                alert("Thank you for your message - we will respond as soon as we can!  In the mean time, why not sign up for a free trial?"); // show response from the php script.
            }
          });
-
     e.preventDefault(); // avoid to execute the actual submit of the form.
+});
+
+//The find an adviser submission (different as will eventually have a diff token):
+$("#findAdviserForm").submit(function(e) {
+    var data = $( this ).serialize()
+    var url = "https://adviser-api-stage.herokuapp.com/api/open/leads";
+    data = data + "&lead_source_token=a069b07a80711d5c2ab011dffab0199e8d430b8b07f96932";
+    $.ajax({
+           type: "POST",
+           url: url,
+           data: data,
+           success: function(data)
+           {
+               alert("Thank you for your request - A socket adviser near you will be in touch very soon!"); // show response from the php script.
+           }
+         });
+    e.preventDefault(); 
 });
 
 function recommendSocket() {

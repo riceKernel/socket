@@ -9,21 +9,24 @@
         </div>
         <div class="col-md-6 wow fadeInUp" data-wow-delay="0.6s">
           <div class="contact-form">
-            <form action="#" method="post">
+            <form id='findAdviserForm'>
               <div class="col-md-6">
-                <input type="text" class="form-control" placeholder="Name">
+                <input type="text" class="form-control" placeholder="First Name" name='client_first_name'>
               </div>
               <div class="col-md-6">
-                <input type="text" class="form-control" placeholder="Phone">
-              </div>
-              <div class="col-md-6">
-                <input type="email" class="form-control" placeholder="Email">
-              </div>
-              <div class="col-md-6">
-                <input type="text" class="form-control" placeholder="City">
+                <input type="text" class="form-control" placeholder="Last Name" name='client_last_name'>
               </div>
               <div class="col-md-12">
-                <textarea class="form-control" placeholder="A brief description of your needs (new home? refinance?)" rows="4"></textarea>
+                <input type="email" class="form-control" placeholder="Email" name='client_email'>
+              </div>
+              <div class="col-md-6">
+                <input type="text" class="form-control" placeholder="Phone" name='client_phone'>
+              </div>
+              <div class="col-md-6">
+                <input type="text" class="form-control" placeholder="Your City" name='client_city'>
+              </div>
+              <div class="col-md-12">
+                <textarea class="form-control" placeholder="A brief description of your needs (eg new home loan, refinance, topup)" rows="6" name='description'></textarea>
               </div>
               <div class="col-md-8">
                 <input type="submit" class="form-control text-uppercase" value="Send">
