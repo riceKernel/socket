@@ -45,7 +45,7 @@ $("#contactUsForm").submit(function(e) {
     var url = "https://adviser-api-stage.herokuapp.com/api/open/leads"; // the script where you handle the form input.
 
     //url = url + "?" + data
-    data = data + "&lead_source_token=12312a069b07a80711d5c2ab011dffab0199e8d430b8b07f96932";
+    data = data + "&lead_source_token=a069b07a80711d5c2ab011dffab0199e8d430b8b07f96932";
     console.log(data);
     $.ajax({
            type: "POST",
@@ -53,7 +53,7 @@ $("#contactUsForm").submit(function(e) {
            data: data,//$("#contactUsForm").serialize(), // serializes the form's elements.
            success: function(data)
            {
-               alert(data); // show response from the php script.
+               alert("Thank you for your message - we will respond as soon as we can!  In the mean time, why not sign up for a free trial?"); // show response from the php script.
            }
          });
 
