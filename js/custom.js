@@ -42,11 +42,11 @@ function forWhom(whom) {
 $("#contactUsForm").submit(function(e) {
 
     var url = "https://adviser-api-stage.herokuapp.com/api/open/leads"; // the script where you handle the form input.
-    console.log($("#idForm").serialize());
+    console.log($("#contactUsForm").serialize());
     $.ajax({
            type: "POST",
            url: url,
-           data: $("#idForm").serialize(), // serializes the form's elements.
+           data: $("#contactUsForm").serialize(), // serializes the form's elements.
            success: function(data)
            {
                alert(data); // show response from the php script.
