@@ -60,7 +60,7 @@ $("#contactUsForm").submit(function(e) {
 $("#findAdviserForm").submit(function(e) {
 
     e.preventDefault();
-    successMessage = "Thank you for your request - A socket adviser near you will be in touch very soon!"
+    successMsg = "Thank you for your request - A socket adviser near you will be in touch very soon!"
     sendMessage('findAdviserSubmit', 'findAdviserForm', successMsg)
 });
 
