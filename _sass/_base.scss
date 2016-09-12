@@ -367,6 +367,10 @@ img {
   color: #fff;
   font-weight: bold;
   transition: all 0.3s ease;
+
+  &.submit-button-disabled {
+    opacity: 0.5;
+  }
 }
 #contact input[type="submit"]:hover {
   background: #107DB6;
