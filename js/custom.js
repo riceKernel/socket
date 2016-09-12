@@ -41,6 +41,12 @@ function forWhom(whom) {
 
 //the contact us form submission:
 $("#contactUsForm").submit(function(e) {
+
+    e.preventDefault();
+    successMsg = "Thank you for your request - A socket adviser near you will be in touch very soon!"
+    sendMessage('contactUsSubmit', 'contactUsForm', successMsg)
+
+
     var data = $( this ).serialize()
     var url = "https://adviser-api-stage.herokuapp.com/api/open/leads";
     data = data + "&lead_source_token=a069b07a80711d5c2ab011dffab0199e8d430b8b07f96932";
