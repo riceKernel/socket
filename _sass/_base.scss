@@ -369,11 +369,14 @@ img {
   transition: all 0.3s ease;
 
   &.submit-button-disabled {
-    opacity: 0.5;
+    opacity: 0.3;
   }
 }
 #contact input[type="submit"]:hover {
   background: #107DB6;
+  &.submit-button-disabled {
+    opacity: 0.3;
+  }
 }
 /* end contact */
 /* start footer */
