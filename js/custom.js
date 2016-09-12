@@ -40,9 +40,10 @@ function forWhom(whom) {
 */
 
 $("#contactUsForm").submit(function(e) {
-
+    console.log(e);
+    var data = $("#contactUsForm").serialize()
     var url = "https://adviser-api-stage.herokuapp.com/api/open/leads"; // the script where you handle the form input.
-    console.log($("#contactUsForm").serialize());
+    console.log(data);
     $.ajax({
            type: "POST",
            url: url,
