@@ -58,28 +58,34 @@ $("#contactUsForm").submit(function(e) {
 
 //The find an adviser submission (different as will eventually have a diff token):
 $("#findAdviserForm").submit(function(e) {
-    $("#findAdviserSubmit").prop('disabled', true);
-    $("#findAdviserSubmit").addClass('submit-button-disabled')
-    var data = $( this ).serialize()
-    var url = "https://adviser-api-stage.herokuapp.com/api/open/leads";
-    data = data + "&lead_source_token=a069b07a80711d5c2ab011dffab0199e8d430b8b07f96932";
-    $.ajax({
-           type: "POST",
-           url: url,
-           data: data,
-           success: function(data)
-           {
-               alert("Thank you for your request - A socket adviser near you will be in touch very soon!"); // show response from the php script.
 
-           }
-         }).done(function() {
-           document.getElementById("findAdviserForm").reset();
-           $("#findAdviserSubmit").removeClass('submit-button-disabled')
-           $("#findAdviserSubmit").prop('disabled', false);
-          });
     e.preventDefault();
-
+    successMessage = "Thank you for your request - A socket adviser near you will be in touch very soon!"
+    sendMessage('findAdviserSubmit', 'findAdviserForm', successMsg)
 });
+
+function sendMessage(buttonId, formId, successMsg) {
+
+  $("#" + buttonId).prop('disabled', true);
+  $("#" + buttonId).addClass('submit-button-disabled')
+  var data = $( '#' + formId ).serialize()
+  var url = "https://adviser-api-stage.herokuapp.com/api/open/leads";
+  data = data + "&lead_source_token=a069b07a80711d5c2ab011dffab0199e8d430b8b07f96932";
+  $.ajax({
+         type: "POST",
+         url: url,
+         data: data,
+         success: function(data)
+         {
+             alert(successMsg); // show response from the php script.
+
+         }
+       }).done(function() {
+         document.getElementById(formId).reset();
+         $("#" + buttonId).removeClass('submit-button-disabled')
+         $("#" + buttonId).prop('disabled', false);
+        });
+}
 
 function recommendSocket() {
   subject = 'Why not try a socket free trial?';
