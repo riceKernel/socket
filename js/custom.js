@@ -41,7 +41,7 @@ function forWhom(whom) {
 
 $("#contactUsForm").submit(function(e) {
     console.log(e);
-    var data = $("#contactUsForm").serialize()
+    var data = $( this ).serialize()
     var url = "https://adviser-api-stage.herokuapp.com/api/open/leads"; // the script where you handle the form input.
     console.log(data);
     $.ajax({
