@@ -50,7 +50,7 @@ $("#contactUsForm").submit(function(e) {
     $.ajax({
            type: "POST",
            url: url,
-           data: $("#contactUsForm").serialize(), // serializes the form's elements.
+           data: data,//$("#contactUsForm").serialize(), // serializes the form's elements.
            success: function(data)
            {
                alert(data); // show response from the php script.
