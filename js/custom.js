@@ -43,10 +43,10 @@ function forWhom(whom) {
 $("#contactUsForm").submit(function(e) {
 
     e.preventDefault();
-    successMsg = "Thank you for your request - A socket adviser near you will be in touch very soon!"
+    successMsg = "Thank you for your message - we will respond as soon as we can!  In the mean time, why not sign up for a free trial?"
     sendMessage('contactUsSubmit', 'contactUsForm', successMsg)
 
-
+    /*
     var data = $( this ).serialize()
     var url = "https://adviser-api-stage.herokuapp.com/api/open/leads";
     data = data + "&lead_source_token=a069b07a80711d5c2ab011dffab0199e8d430b8b07f96932";
@@ -60,6 +60,7 @@ $("#contactUsForm").submit(function(e) {
            }
          });
     e.preventDefault(); // avoid to execute the actual submit of the form.
+    */
 });
 
 //The find an adviser submission (different as will eventually have a diff token):
