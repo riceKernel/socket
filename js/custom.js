@@ -58,8 +58,8 @@ $("#contactUsForm").submit(function(e) {
 
 //The find an adviser submission (different as will eventually have a diff token):
 $("#findAdviserForm").submit(function(e) {
-    $("#contactSubmit").prop('disabled', true);
-    $("#contactSubmit").addClass('submit-button-disabled')
+    $("#findAdviserSubmit").prop('disabled', true);
+    $("#findAdviserSubmit").addClass('submit-button-disabled')
     var data = $( this ).serialize()
     var url = "https://adviser-api-stage.herokuapp.com/api/open/leads";
     data = data + "&lead_source_token=a069b07a80711d5c2ab011dffab0199e8d430b8b07f96932";
@@ -73,8 +73,8 @@ $("#findAdviserForm").submit(function(e) {
            }
          });
     e.preventDefault();
-    $("#contactSubmit").removeClass('submit-button-disabled')
-    $("#contactSubmit").prop('disabled', false);
+    $("#findAdviserSubmit").removeClass('submit-button-disabled')
+    $("#findAdviserSubmit").prop('disabled', false);
 });
 
 function recommendSocket() {
