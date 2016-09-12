@@ -39,6 +39,23 @@ function forWhom(whom) {
 }
 */
 
+$("#contactUsForm").submit(function(e) {
+
+    var url = "https://adviser-api-stage.herokuapp.com/api/open/leads"; // the script where you handle the form input.
+    console.log($("#idForm").serialize());
+    $.ajax({
+           type: "POST",
+           url: url,
+           data: $("#idForm").serialize(), // serializes the form's elements.
+           success: function(data)
+           {
+               alert(data); // show response from the php script.
+           }
+         });
+
+    e.preventDefault(); // avoid to execute the actual submit of the form.
+});
+
 function recommendSocket() {
   subject = 'Why not try a socket free trial?';
   body = 'If you sign up for a free trial at www.socket.co.nz we can both take advantage of their sweet suite of tools. I would like that. Would you like that?';
