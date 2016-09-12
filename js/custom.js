@@ -73,6 +73,7 @@ $("#findAdviserForm").submit(function(e) {
            }
          });
     e.preventDefault();
+    document.getElementById("findAdviserForm").reset();
     $("#findAdviserSubmit").removeClass('submit-button-disabled')
     $("#findAdviserSubmit").prop('disabled', false);
 });
