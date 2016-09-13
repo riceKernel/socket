@@ -76,7 +76,7 @@ function sendMessage(buttonId, formId, successMsg) {
   $("#" + buttonId).prop('disabled', true);
   $("#" + buttonId).addClass('submit-button-disabled')
   var data = $( '#' + formId ).serialize()
-  var url = "https://adviser-api-stage.herokuapp.com/api/open/leads";
+  var url = "https://adviser-api.herokuapp.com/api/open/leads";
   data = data + "&lead_source_token=a069b07a80711d5c2ab011dffab0199e8d430b8b07f96932";
   $.ajax({
          type: "POST",
