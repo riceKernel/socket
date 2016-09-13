@@ -19,25 +19,8 @@ $(function() {
     $(".navbar-collapse").collapse('hide');
   });
 })
-/*
-function forWhom(whom) {
-  if(whom === 'advisers') {
-    $('.borrowers-content').hide();
-    $('.advisers-content').show();
-    $('#forAdviserButton').addClass('active');
-    $('#forBorrowerButton').removeClass('active');
 
-  };
 
-  if(whom === 'borrowers') {
-    $('.borrowers-content').show();
-    $('.advisers-content').hide();
-    $('#forAdviserButton').removeClass('active');
-    $('#forBorrowerButton').addClass('active');
-  };
-  document.getElementById("divider").scrollIntoView()
-}
-*/
 
 //the contact us form submission:
 $("#contactUsForm").submit(function(e) {
@@ -46,24 +29,10 @@ $("#contactUsForm").submit(function(e) {
     successMsg = "Thank you for your message - we will respond as soon as we can!  In the mean time, why not sign up for a free trial?"
     sendMessage('contactUsSubmit', 'contactUsForm', successMsg)
 
-    /*
-    var data = $( this ).serialize()
-    var url = "https://adviser-api-stage.herokuapp.com/api/open/leads";
-    data = data + "&lead_source_token=a069b07a80711d5c2ab011dffab0199e8d430b8b07f96932";
-    $.ajax({
-           type: "POST",
-           url: url,
-           data: data,//$("#contactUsForm").serialize(), // serializes the form's elements.
-           success: function(data)
-           {
-               alert("Thank you for your message - we will respond as soon as we can!  In the mean time, why not sign up for a free trial?"); // show response from the php script.
-           }
-         });
-    e.preventDefault(); // avoid to execute the actual submit of the form.
-    */
 });
 
-//The find an adviser submission (different as will eventually have a diff token):
+
+
 $("#findAdviserForm").submit(function(e) {
 
     e.preventDefault();
