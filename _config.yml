@@ -35,3 +35,6 @@ contactBorrowers:
 
 # Build settings
 markdown: kramdown
+
+gems:
+  - jekyll-assets
