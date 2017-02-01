@@ -15,24 +15,14 @@ facebook: https://www.facebook.com/socketnz
 facebookName: socket
 twitter: https://twitter.com/socket_nz
 twitterHandle: socket_nz
-description: >
-<<<<<<< HEAD
-  Powerful apps for Mortgage Advisers, their clients, and assessors.
-=======
-  Powerful tools for lending professionals and their clients.
->>>>>>> master
+description: Powerful tools for lending professionals and their clients.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://www.socket.co.nz" # the base hostname & protocol for your site
 company_name: riceKernel
 
 home:
-<<<<<<< HEAD
-  tagline: SOCKET
-  blurb: A smarter suite of tools for mortgage advisers and their clients
-=======
   tagline: Socket
   blurb: Powerful tools for lending professionals and their clients
->>>>>>> master
 
 contact:
   title: Contact us
