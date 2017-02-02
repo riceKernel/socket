@@ -13,26 +13,27 @@
 
 - name: power
   tagline: Powerful
-  blurb: Empower yourself with socket's suite of tools for borrowers
+  blurb: Analyse the impacts of various strategies for your loan
   img: ../img/loan-planner-in-mac.png
   features:
-    - icon: fa-calculator
-      text: Simple to use calculators for estimating payments, break-fee paybacks, lifetime interest savings, etc
-    - icon: fa-area-chart
-      text: Advanced loan planning software to model life events and repayment strategies
     - icon: fa-sliders
-      text: Rate and fee comparators to compare offers from lenders (coming soon!)
+      text: Build a complex plan of loan events over the entire life of your loan(s)
+    - icon: fa-calculator
+      text: Easily assess the lifetime cost or savings impact of each event
+    - icon: fa-area-chart
+      text: View graphic representations of your borrowings and payments for every year of your loan(s)
 
 
 
-- name: communication
-  tagline: Informative
-  blurb: Appreciate the benefits of socket's automated updates and simplified communications
+
+- name: comparator
+  tagline: Objective
+  blurb: Take the difficulty out of comparing offers from different lenders
   img: ../img/loan-planner-pmt-calc-in-mac.png
   features:
-    - icon: fa-envelope
-      text: Regular updates on the progress of your application and your next steps
-    - icon: fa-question
-      text: Simple to follow guides and advice at every stage
-    - icon: fa-laptop
-      text: Full access to your loan application throughout the home buying journey
+    - icon: fa-bank
+      text: Compare offers over multiple lenders for any given loan structure
+    - icon: fa-balance-scale
+      text: Compare differing rates, discounts and incentives
+    - icon: fa-dollar
+      text: View the financial cost of each offer - removing the guesswork and emotion
