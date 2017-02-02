@@ -6,8 +6,10 @@ categories: socket
 tags: crm la toolkit
 ---
 Following the successful release of the socket CRM and application tool, we are now proud to launch the first three tools in the Socket Toolkit (beta), with open access to anyone wanting to take them for a spin.
+
 <br>
 We plan to develop the Socket Toolkit into a broad range of calculators and tools for mortgage advisers, lending professionals, and mortgage customers.
+
 <br>
 The tools in the current beta include:
 The Socket Payment Calculator: A simple and easy to use loan repayment calculator that works on any device
