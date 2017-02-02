@@ -30,7 +30,7 @@
   img: img/loan-planner-in-mac.png
   features:
     - icon: fa-sliders
-      text: Powerfult and objective tools for comparing multiple lending offers
+      text: Simple and intuitive tools for comparing multiple lending offers, creating a budget, and assessing affordability
     - icon: fa-area-chart
       text: A powerful loan planner to graph payment and financial events over the life of the loan
     - icon: fa-line-chart
