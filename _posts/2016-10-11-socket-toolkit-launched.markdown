@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Socket goes live!"
+title:  "Socket toolkit beta lunched!"
 date:   2016-10-11 09:00:00 +1200
 categories: socket
 tags: crm la toolkit
