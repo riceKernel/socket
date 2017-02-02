@@ -15,7 +15,9 @@ The tools in the current beta include:
 The Socket Payment Calculator: A simple and easy to use loan repayment calculator that works on any device
 The Socket Loan Planner: A sophisticated loan modeling and life-event tool (designed for tablet, laptop and desktop)
 The Socket Offer Comparison Tool: An intelligent comparison tool for comparing multiple offers from lenders
-http://www.toolkit.beta.socket.co.nz
+
+<a href='http://www.toolkit.beta.socket.co.nz'>
+http://www.toolkit.beta.socket.co.nz</a>
 
 <br>
 These market-leading tools are designed to be user-friendly, intuitive and to offer an additional point of difference for your business.

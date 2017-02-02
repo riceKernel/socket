@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Socket toolkit beta lunched!"
-date:   2016-10-11 09:00:00 +1200
+title:  "Socket toolkit - New Year release"
+date:   2017-01-21 09:00:00 +1200
 categories: socket
 tags: crm la toolkit socket
 ---
