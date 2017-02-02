@@ -33,7 +33,7 @@
   features:
     - icon: fa-bank
       text: Compare offers over multiple lenders for any given loan structure
-    - icon: fa-percent
+    - icon: fa-bullseye
       text: Compare differing rates, discounts and incentives
     - icon: fa-dollar
       text: View the financial cost of each offer - removing the guesswork and emotion
