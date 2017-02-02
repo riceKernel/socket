@@ -13,7 +13,7 @@
 
 - name: power
   tagline: Powerful
-  blurb: Analyse the impacts of various strategies for your loan
+  blurb: Use Socket's powerful Loan PLanner to create an assess various loan strategies
   img: ../img/loan-planner-in-mac.png
   features:
     - icon: fa-sliders
@@ -28,7 +28,7 @@
 
 - name: comparator
   tagline: Objective
-  blurb: Take the difficulty out of comparing offers from different lenders
+  blurb: Take the difficulty out of comparing offers from different lenders with the Socket Offer Comparator
   img: ../img/loan-planner-pmt-calc-in-mac.png
   features:
     - icon: fa-bank
