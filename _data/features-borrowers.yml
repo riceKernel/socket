@@ -13,7 +13,7 @@
 
 - name: power
   tagline: Powerful
-  blurb: Use Socket's powerful Loan PLanner to create an assess various loan strategies
+  blurb: Use Socket's powerful Loan Planner to create and assess various loan strategies
   img: ../img/loan-planner-in-mac.png
   features:
     - icon: fa-sliders
@@ -21,7 +21,7 @@
     - icon: fa-calculator
       text: Easily assess the lifetime cost or savings impact of each event
     - icon: fa-area-chart
-      text: View graphic representations of your borrowings and payments for every year of your loan(s)
+      text: View graphic representations of your loan balance and payments
 
 
 
@@ -29,11 +29,11 @@
 - name: comparator
   tagline: Objective
   blurb: Take the difficulty out of comparing offers from different lenders with the Socket Offer Comparator
-  img: ../img/loan-planner-pmt-calc-in-mac.png
+  img: ../img/offer-comparator-in-mac.png
   features:
     - icon: fa-bank
       text: Compare offers over multiple lenders for any given loan structure
-    - icon: fa-balance-scale
+    - icon: fa-percent
       text: Compare differing rates, discounts and incentives
     - icon: fa-dollar
       text: View the financial cost of each offer - removing the guesswork and emotion
