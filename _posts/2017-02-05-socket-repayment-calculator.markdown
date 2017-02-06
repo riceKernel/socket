@@ -11,4 +11,4 @@ We're please to announce that Socket's Repayment Calculator for iPhone and Apple
 A simple yet professional loan repayment calculator - we hope lending professionals and home buyers alike will find Socket's Repayment Calculator as useful as our other tools.
 
 <br>
-<a href='https://lnkd.in/guVqqgw'>View on the app store</a>
+<a href='https://lnkd.in/guVqqgw' target='_blank'>View on the app store</a>
