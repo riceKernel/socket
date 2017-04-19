@@ -1,37 +1,37 @@
 - name: crm
   tagline: Socket CRM
-  blurb: A powerful CRM designed to improve your workflow
+  blurb: A sophisticated Customer Relationship Management tool with game-changing features to simplify your business
   img: img/crm-in-mac.png
   features:
     - icon: fa-dashboard
-      text: Intuitive and clear dashboards, client records, and financial data
+      text: Work smarter with intuitive and clear dashboards, client records, and financial data
     - icon: fa-cogs
-      text: Automated tasks and communications to free your day-to-day
+      text: Free your day-to-day with automated tasks and communications
     - icon: fa-usd
-      text: Rich leads to source new and repeat business
+      text: Source new and repeat business with rich leads
 
 
 - name: la
   tagline: Socket Loan App
-  blurb: A web-based loan application for a smarter, easier application journey
+  blurb: A digital loan application platform for a smarter, easier application journey that your clients will love
   img: img/loan-app-financials-in-mac.png
   features:
     - icon: fa-question-circle
-      text: Collaborate with your clients on their application - improving their experience and your productivity
+      text: mprove your customer experience and increase productivity by collaborating with your clients on their application
     - icon: fa-calculator
-      text: Automated calculation of tax, foreign currency (over 150 currencies supported), LVR and UMI
+      text: Simplify the process with automated tax, foreign currency, LVR and UMI calculators
     - icon: fa-certificate
-      text: Improve your brand image by replacing paper forms with a sleek and attractive web-app
+      text: Enhance your brand image by replacing paper forms with a sleek and attractive web-app
 
 
 - name: toolkit
   tagline: Socket Toolkit
-  blurb: Functional and attractive loan tools for you and your clients
+  blurb: A suite of impressive market-leading tools for you and your clients
   img: img/loan-planner-in-mac.png
   features:
     - icon: fa-sliders
       text: Simple and intuitive tools for comparing multiple lending offers, creating a budget, and assessing affordability
     - icon: fa-area-chart
-      text: A powerful loan planner to graph payment and financial events over the life of the loan
+      text: A powerful loan planner to model payment and financial events and their long term outcomes at the click of a button
     - icon: fa-line-chart
       text: Smart commission calculation and management - including trail!
