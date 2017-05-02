@@ -15,14 +15,14 @@ facebook: https://www.facebook.com/socketnz
 facebookName: socket
 twitter: https://twitter.com/socket_nz
 twitterHandle: socket_nz
-description: Powerful tools for lending professionals and their clients.
+description: Impress your clients, dramatically improve your user experience and simplify the way you do business with our powerful tools for lending professionals
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://www.socket.co.nz" # the base hostname & protocol for your site
 company_name: riceKernel
 
 home:
-  tagline: Socket
-  blurb: Impress your clients, dramatically improve your user experience and simplify the way you do business with our powerful tools for lending professionals
+  tagline: Sophisticated Tools For Lending Professionals
+  blurb: Impress your clients, dramatically improve your user experience and simplify the way you do business with our extensive suite of apps
 
 contact:
   title: Contact us
